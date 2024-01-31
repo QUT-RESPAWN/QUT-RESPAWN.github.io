@@ -1,0 +1,40 @@
+* {    /* page settings */
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter';font-size: 22px;font-weight: bold;
+}
+
+#brand {
+    text-align: center;  
+    background-color: rgb(25, 21, 55);  
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    text-decoration: none;
+
+    background-color: rgb(25, 21, 55);  
+}
+
+.navbtn {
+    color: white;
+    text-decoration: none;
+} .navbtn:focus {
+    color: rgb(100, 91, 169);
+}
+
+#home_img {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    height: 200px;
+
+    object-position: 25% 63%;
+} 
